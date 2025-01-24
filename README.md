@@ -14,6 +14,8 @@
 
 ![Image](https://github.com/user-attachments/assets/160b9762-50cc-4a24-b38d-759d994dceb8)
 
+![Image](https://github.com/user-attachments/assets/4159581a-7080-464f-8033-44ee5d1ebe3f)
+
 1. Accuracy
 The accuracy value is printed in the output as:
 Accuracy: Proportion of correctly classified samples.
