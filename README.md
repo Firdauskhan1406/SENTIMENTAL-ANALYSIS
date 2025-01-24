@@ -14,8 +14,45 @@
 
 ![Image](https://github.com/user-attachments/assets/160b9762-50cc-4a24-b38d-759d994dceb8)
 
-
+1. Accuracy
+The accuracy value is printed in the output as:
 Accuracy: Proportion of correctly classified samples.
+
+Accuracy: 0.85
+
+hat it represents:
+
+Accuracy measures the proportion of correctly classified samples out of the total samples.
+Formula:
+Accuracy
+=
+Number of Correct Predictions
+Total Number of Predictions
+Accuracy= 
+Total Number of Predictions
+Number of Correct Predictions
+​
+nterpretation:
+
+If accuracy = 0.85 (or 85%), it means the model correctly predicted the sentiment for 85% of the data.
+While accuracy gives a general overview of performance, it can be misleading for imbalanced datasets.
+Example: If 90% of the dataset is labeled as "positive," a model that predicts everything as "positive" will still have 90% accuracy but fail to identify other classes (e.g., "negative" or "neutral").
+
+Further insights:
+
+If your dataset is balanced (roughly equal examples of positive, negative, and neutral sentiments), accuracy is a reliable measure.
+If the dataset is imbalanced, accuracy should be supplemented with precision, recall, and F1-score for better insights.
+
+Summary of Output Insights
+High-Level View:
+
+The metrics suggest how well the model distinguishes between sentiments (positive, negative, neutral).
+Precision, recall, and F1-scores indicate specific strengths and weaknesses for each sentiment.
+Actionable Insights:
+
+If "negative" has low recall, the model struggles to identify negative sentiments, which might need more training data or feature improvements.
+Misclassifications in the confusion matrix highlight areas for potential improvement (e.g., refining vectorization or addressing class imbalance).
+By interpreting these outputs, you can evaluate the effectiveness of the sentiment analysis pipeline and decide whether additional enhancements are necessary.
 Classification Report: Precision, recall, and F1-score for each class.
 Confusion Matrix: Summarizes prediction results against actual values.
 Expected Outputs
